@@ -8,7 +8,7 @@
 * Wechat Devtools ver.1.02.1906212
 
 ### 安装步骤
-1. 将仓库内的文件下载到本地并解压缩，建议保存到纯英文的路径。
+1. 将仓库内的文件下载到本地并解压缩，建议保存到纯英文的路径
 2. 打开Wechat Devtools，选择"Project -> Import Project"，目录选择刚下载的../miniprogram_gugong
 3. AppID必填，没有的话请注册，或者选择测试账号
 4. 导入完毕后就能运行啦
