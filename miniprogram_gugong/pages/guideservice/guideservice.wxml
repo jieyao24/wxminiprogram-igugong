@@ -1,0 +1,14 @@
+<!--pages/happynotice/happynotice.wxml-->
+<import src="../common/list.wxml" />
+
+
+<image class='logo' src="https://img.dpm.org.cn/Uploads/Picture/2018/11/29/s5bff7e49ee86d.jpg" />
+
+<view class="page topics">
+    <template is="list" data="{{newsList}}"/>
+</view>
+<view class="morenew">
+   <image class="more_img" src="/images/more.png" />
+   <view class="more_text">更多资讯</view>
+   <view class="more_text">敬请期待</view>
+</view>

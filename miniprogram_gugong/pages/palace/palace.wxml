@@ -1,0 +1,6 @@
+<!--pages/integralmall/integralmall.wxml-->
+
+<import src="../common/list.wxml" />
+<image class='logo' src="/images/4.png" />
+<image class='logo' src="/images/5.png" />
+

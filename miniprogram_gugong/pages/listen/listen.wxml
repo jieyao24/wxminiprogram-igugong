@@ -1,0 +1,72 @@
+<!--pages/listen/listen.wxml-->
+<view style='background-color:#e2dbc8'>
+  <view class='vediocontainer' style='background:url(/images/huawen.png)'>
+    <view class='titlecontainer'>
+      <image class="titleimg" src="https://img.dpm.org.cn/Public/static/themes/image/public-icon3.png"></image>
+      <text class='title'>看一个真实的故宫</text>
+      <image class="titleimg" src='https://img.dpm.org.cn/Public/static/themes/image/public-icon4.png'></image>
+    </view>
+    <video class="vedio" src="https://img.dpm.org.cn/Uploads/video/final.mp4" objectFit='cover'>上元之夜</video>
+  </view>
+
+
+  <view class='audiocontainer' style='background:url(/images/huawen.png)'>
+    <view class='titlecontainer'>
+      <image class="titleimg" src="https://img.dpm.org.cn/Public/static/themes/image/public-icon3.png"></image>
+      <text class='title'>听，来自故宫美妙的声音</text>
+      <image class="titleimg" src='https://img.dpm.org.cn/Public/static/themes/image/public-icon4.png'></image>
+    </view>
+    <view class='audioplay' data-src='1'>
+      <image class='audioimg' src='https://img.dpm.org.cn/Public/static/themes/image/lyc/index-icon2-1.png'></image>
+      <text>月下海棠</text>
+      <image src='/images/play.png' class='control' bindtap='begin'></image>
+      <image src='/images/stop.png'  class='control' bindtap='end'></image>
+    </view>
+    <view class='audioplay' data-src='2' bindtap='begin' bindlongtap='end'>
+      <image class='audioimg' src='https://img.dpm.org.cn/Public/static/themes/image/lyc/index-icon2-1.png'></image>
+      <text>太平令</text>
+      <image src='/images/play.png' class='control' bindtap='begin'></image>
+      <image src='/images/stop.png'  class='control' bindtap='end'></image>
+    </view>
+    <view class='audioplay' data-src='3' bindtap='begin' bindlongtap='end'>
+      <image class='audioimg' src='https://img.dpm.org.cn/Public/static/themes/image/lyc/index-icon2-1.png'></image>
+      <text>普乐天</text>
+      <image src='/images/play.png' class='control' bindtap='begin'></image>
+      <image src='/images/stop.png'  class='control' bindtap='end'></image>
+    </view>
+    <view class='audioplay' data-src='4' bindtap='begin' bindlongtap='end'>
+      <image class='audioimg' src='https://img.dpm.org.cn/Public/static/themes/image/lyc/index-icon2-1.png'></image>
+      <text>千秋词</text>
+      <image src='/images/play.png' class='control' bindtap='begin'></image>
+      <image src='/images/stop.png'  class='control' bindtap='end'></image>
+    </view>
+    <view class='audioplay' data-src='4' bindtap='begin' bindlongtap='end'>
+      <image class='audioimg' src='https://img.dpm.org.cn/Public/static/themes/image/lyc/index-icon2-1.png'></image>
+      <text>梅杏争春</text>
+      <image src='/images/play.png' class='control' bindtap='begin'></image>
+      <image src='/images/stop.png'  class='control' bindtap='end'></image>
+    </view>
+    <view class='audioplay' data-src='4' bindtap='begin' bindlongtap='end'>
+      <image class='audioimg' src='https://img.dpm.org.cn/Public/static/themes/image/lyc/index-icon2-1.png'></image>
+      <text>舞名马</text>
+      <image src='/images/play.png' class='control' bindtap='begin'></image>
+      <image src='/images/stop.png'  class='control' bindtap='end'></image>
+    </view>
+    <view class='audioplay' data-src='4' bindtap='begin' bindlongtap='end'>
+      <image class='audioimg' src='https://img.dpm.org.cn/Public/static/themes/image/lyc/index-icon2-1.png'></image>
+      <text>惜黄花</text>
+      <image src='/images/play.png' class='control' bindtap='begin'></image>
+      <image src='/images/stop.png'  class='control' bindtap='end'></image>
+    </view>
+    <view class='audioplay' data-src='4' bindtap='begin' bindlongtap='end'>
+      <image class='audioimg' src='https://img.dpm.org.cn/Public/static/themes/image/lyc/index-icon2-1.png'></image>
+      <text>松青夜游</text>
+      <image src='/images/play.png' class='control' bindtap='begin'></image>
+      <image src='/images/stop.png'  class='control' bindtap='end'></image>
+    </view>
+  </view>
+</view>
+
+
+
+

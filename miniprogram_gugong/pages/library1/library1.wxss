@@ -1,0 +1,25 @@
+/* pages/library1/library1.wxss */
+.top{
+  width: 750rpx;
+  height: 400rpx;
+  flex-direction: column;
+}
+.topimg{
+  margin-left: 60rpx;
+  height: 100%;
+}
+.fenlei{
+  flex-direction: column;
+  width: 750rpx;
+  height: 100rpx;
+  align-items: center;
+}
+.fenlei image{
+  margin-left: 50rpx;
+  width: 80rpx;
+  height: 80rpx;
+  vertical-align: middle;
+}
+.fenlei text{
+  margin-left: 30rpx;
+}

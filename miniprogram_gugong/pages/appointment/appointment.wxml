@@ -1,0 +1,33 @@
+<view class="banner">
+  <view class="bannerword">
+    <view class="bannerfirst">
+      故宫之旅 即刻起航
+    </view>
+    <view class="bannersecond">
+      推开这扇门，邂逅两朝三世六百年。
+    </view>
+  </view>
+</view>
+
+<view>
+  <picker class='datepicker' mode='date' value='2019-06-29' start='2019-06-29' end='2020-06-29' field='day' bindchange="dateChange">
+    <view class="datepickertitle">选择时间</view>
+    <view>{{selectedDate}}</view>
+  </picker>
+</view>
+
+<view class="tickets">
+  <view class="ticketstitle">剩余票数</view>
+  <view>103</view>
+</view>
+
+<view class="notice">
+  <view class="noticetitle">购票须知</view>
+  <view>每年4月1日至10月31日为旺季，大门票60元/人</view>
+  <view>每年11月1日至次年3月31日为淡季，大门票40元/人</view>
+  <view>珍宝馆（即进入宁寿宫区，戏曲馆、石鼓馆）参观门票：10元/人</view>
+  <view>钟表馆（即进入奉先殿区）参观门票：10元/人</view>
+</view>
+
+<view class="confirm" bindtap="success">确定购票
+</view>

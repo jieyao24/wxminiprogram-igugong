@@ -1,0 +1,58 @@
+/* pages/listen/listen.wxss */
+.vediocontainer{
+  align-items: center;
+}
+.titlecontainer{
+  height: 100rpx;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.titleimg{
+  width: 30rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.titlecontainer text{
+  font-size: 40rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  color: #7e2625;
+}
+.vedio{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.audiocontainer{
+  text-align: center;
+  align-items: center;
+}
+.audioplay{
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #a48254;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10rpx;
+}
+.audioimg{
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+.audioplay text{
+  font-size: 33rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  color: #fff;
+}
+.control{
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  margin-left: 15rpx;
+}

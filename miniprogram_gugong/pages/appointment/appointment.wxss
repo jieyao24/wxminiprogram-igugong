@@ -1,0 +1,79 @@
+.bannerword{
+  color: #fff;
+  padding: 90rpx 60rpx;
+  font-weight: 300;
+  position: relative;
+  text-shadow: 0px 0px 6rpx rgba(0,0,0,0.3);
+  font-family: SimSun;
+}
+.bannerfirst{
+  font-size: 65rpx;
+  font-style: bold;
+}
+.bannersecond{
+  font-size: 35rpx;
+  padding-top: 10xrpx;
+  padding-left:20rpx;
+}
+.banner{
+  width:100%;
+  background-image: url("https://img.dpm.org.cn/Uploads/Picture/2017/12/29/s5a45909c12b88.jpg");
+  height:420rpx;
+  //background-size:100% 100%;
+  //-moz-background-size:100% 100%;
+}
+
+.datepicker{
+  padding-top:50rpx;
+  padding-bottom:50rpx;
+  font-size: 30rpx;
+  color: #fff;
+  background-image: url("https://img.dpm.org.cn/Uploads/Picture/2018/02/13/s5a8275804cc8b.jpg");
+  text-align: center;
+  opacity: 0.9;
+}
+.datepickertitle{
+  font-family: SimSun;
+  font-size: 50rpx;
+  padding-bottom: 20rpx;
+}
+.tickets{
+  padding-top:50rpx;
+  padding-bottom:50rpx;
+  font-size: 30rpx;
+  color: #fff;
+  background-image: url("https://img.dpm.org.cn/Uploads/Picture/2017/07/28/s597a9087c4b8d.jpg");
+  text-align: center;
+  opacity: 0.9;
+}
+.ticketstitle{
+  font-family: SimSun;
+  font-size: 50rpx;
+  padding-bottom: 20rpx;
+}
+
+.notice{
+  padding-top:50rpx;
+  padding-bottom:50rpx;
+  font-size: 30rpx;
+  color: #fff;
+  background-image: url("https://img.dpm.org.cn/Uploads/Picture/2017/06/30/s5955a4f5bf3a3.jpg");
+  text-align: center;
+  opacity: 0.9;
+  font-family: SimSun;
+}
+.noticetitle{
+  font-family: SimSun;
+  font-size: 50rpx;
+  padding-bottom: 20rpx;
+}
+
+.confirm{
+  text-align: center;
+  padding-top:50rpx;
+  padding-bottom:50rpx;
+  font-size: 50rpx;
+  font-family: SimSun;
+  color: #fff;
+  background: #DAA520;
+}

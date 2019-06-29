@@ -1,0 +1,27 @@
+<view class="section">
+  <view class="section__title">时代</view>
+  <picker bindchange="bindPickerChange" data-index="index1" value="{{index1}}" range="{{timeArray}}">
+    <view class="picker">
+      {{timeArray[index1]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <view class="section__title">版本</view>
+  <picker bindchange="bindPickerChange" data-index="index2" value="{{index2}}" range="{{versionArray}}">
+    <view class="picker">
+      {{versionArray[index2]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <view class="section__title">出版社</view>
+  <picker bindchange="bindPickerChange" data-index="index3" value="{{index3}}" range="{{printArray}}">
+    <view class="picker">
+      {{printArray[index3]}}
+    </view>
+  </picker>
+</view>
+<view>
+  <image src="https://img.dpm.org.cn/Public/static/themes/image/ld/l7.png" style='margin-top:50rpx; margin-left:50rpx'/>
+</view>

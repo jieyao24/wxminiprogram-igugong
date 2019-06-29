@@ -1,0 +1,47 @@
+<!--pages/user/user.wxml-->
+<view class="container">
+
+  <view class="user-logo">
+    <image class="user-logo-img" src="/images/1.png"></image>
+  </view>
+<!-- bindtap="maixiangMembertap"  -->
+
+  <view catchtap="ifregister"   class="user-collect userstyle">
+    <text class="userTextStyle">注册</text>
+    <text class="righthead"></text>
+  </view>
+
+  <view class="user-tract userstyle">
+    <text class="userTextStyle">足迹</text>
+    <text class="righthead"></text>
+  </view>
+
+  <view class="user-commonProblem userstyle">
+    <text class="userTextStyle">常见问题</text>
+    <text class="righthead"></text>
+  </view>
+
+  <view bindtap="bindguideservice" class="user-item userstyle">
+      <text class="userTextStyle">讲解员入驻</text>
+      <text class="righthead"></text>
+  </view>
+
+  <view class="user-setting userstyle">
+    <text class="userTextStyle">设置</text>
+    <text class="righthead"></text>
+  </view>
+
+  <view class="user-alert userstyle">
+    <text class="userTextStyle">我的卡包</text>
+    <text class="righthead"></text>
+  </view>
+
+  <!-- 弹窗 -->
+  <modal title="温馨提示：" confirm-text="立即注册" cancel-text="以后再说"
+   hidden="{{modalHidden}}" bindconfirm="confirmChange" bindcancel="cancellChange" >
+  您还未注册,请先注册。
+  </modal>
+
+
+
+</view>

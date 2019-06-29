@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userinfo/userinfo",
+    "pages/user/user",
+    "pages/guideservice/guideservice",
+    "pages/library/library",
+    "pages/map/map",
+    "pages/register/register",
+    "pages/library1/library1",
+    "pages/goods/goods",
+    "pages/appointment/appointment",
+    "pages/treasure/treasure",
+    "pages/palace/palace",
+    "pages/listen/listen"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "故宫博物院",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#ffc324",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "iconPath": "images/icon_goods.png",
+        "selectedIconPath": "images/icon_goods_HL.png",
+        "text": "文创"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/user1.jpg",
+        "selectedIconPath": "images/user2.png",
+        "text": "个人信息"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

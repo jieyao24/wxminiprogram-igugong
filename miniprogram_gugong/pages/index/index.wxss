@@ -1,0 +1,57 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  width: 100%;
+}
+.top{
+  width: 750rpx;
+  height: 410rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  margin-bottom: 0rpx;
+}
+.topimage{
+  width: 100%;
+  height: 400rpx;
+  margin-left: 0rpx;
+  margin-right: 0rpx;
+}
+/* .middle{
+  width: 750rpx;
+  height: 100rpx;
+  background: #24394c;
+}
+.middleimage{
+  width: 48px;
+  height: 48px;
+} */
+
+.index-item {
+  display: inline-block;
+  height: 360rpx;
+  width:250rpx;
+  margin: 0rpx 0rpx 0rpx 0;
+
+}
+.indexflex {
+  margin-top: 100rpx;
+  width:250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.index-item-name {
+  margin-top: 40rpx;
+  font-size: 33rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  color: #fff;
+}
+ .index-item-img{
+  height: 100rpx;
+  width: 100rpx;
+}

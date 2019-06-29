@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<swiper class="top" autoplay='true' interval='2000' duration='500' circular='true'>
+ <block wx:for="{{imgUrls}}">
+  <swiper-item>
+   <image class="topimage" src="{{item}}"/>
+  </swiper-item>
+ </block>
+</swiper>
+<!-- <view class="middle">
+ <image class="middleimg" src="/images/fish.png"/>
+</view> -->
+
+<view class="index-block"  >
+  <view bindtap="bindlibrary" class="index-item" style="background:url(https://img.dpm.org.cn/Uploads/Picture/2016/11/23/s5835a5845f08b.jpg)">
+    <view class="indexflex">
+      <image class="index-item-img" src="https://img.dpm.org.cn/Uploads/Picture/2016/12/28/s5863704a46b10.png"/>
+      <view class="index-item-name"> 图书馆</view>
+    </view>
+  </view>
+  <view bindtap="bindlisten" class="index-item" style="background:url(https://img.dpm.org.cn/Uploads/Picture/2016/11/23/s5835a58eb4421.jpg)">
+    <view class="indexflex">
+      <image class="index-item-img" src="https://img.dpm.org.cn/Uploads/Picture/2016/12/28/s58636fe246e0a.png"/>
+      <view class="index-item-name"> 试听馆</view>
+    </view>
+  </view>
+  <view bindtap="bindtreasure" class="index-item" style="background:url(https://img.dpm.org.cn/Uploads/Picture/2016/11/23/s5835a57aca965.jpg)">
+    <view class="indexflex">
+      <image class="index-item-img" src="https://img.dpm.org.cn/Uploads/Picture/2017/03/06/s58bcfc20c5076.png"/>
+      <text class="index-item-name">藏品总目</text>
+    </view>
+  </view>
+  <view bindtap="bindtmap" class="index-item" style="background:url(https://img.dpm.org.cn/Uploads/Picture/2016/11/23/s5835a58eb4421.jpg)">
+    <view class="indexflex">
+      <image class="index-item-img" src="https://img.dpm.org.cn/Uploads/Picture/2017/03/06/s58bcfc33c893d.png"/>
+      <text class="index-item-name">全景故宫</text>
+    </view>
+  </view>
+  <view bindtap="bindpalace" class="index-item" style="background:url(https://img.dpm.org.cn/Uploads/Picture/2016/11/23/s5835a57aca965.jpg)">
+    <view class="indexflex">
+      <image class="index-item-img" src="https://img.dpm.org.cn/Uploads/Picture/2017/03/06/s58bcfc4e63ba3.png"/>
+      <text class="index-item-name">场馆介绍</text>
+    </view>
+  </view>
+  <view class="index-item" bindtap="bindappoint" style="background:url(https://img.dpm.org.cn/Uploads/Picture/2016/11/23/s5835a5845f08b.jpg)">
+     <view class="indexflex" >
+       <image class="index-item-img" src="https://img.dpm.org.cn/Uploads/Picture/2018/05/21/s5b0229534bf85.png"/>
+       <text class="index-item-name">预约</text>
+     </view>
+  </view>
+</view>

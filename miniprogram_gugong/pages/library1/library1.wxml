@@ -1,0 +1,49 @@
+<view class="top" style='background-image: url(/images/dragon.png);background-color: #d1c3b0;'>
+  <image class="topimg" src="https://img.dpm.org.cn/Uploads/Picture/2017/03/22/s58d246026be19.png"/>
+  <image bindtap="searchhandler" src="/images/glasses.png" style='width: 50rpx; height: 50rpx;'/>
+</view>
+
+<view class="fenlei" style='background-color: #eae2d0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>故宫博物院院刊</text>
+</view>
+<view class="fenlei" style='background-color: #d1c3b0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>紫禁城</text>
+</view>
+<view class="fenlei" style='background-color: #eae2d0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>故宫博物院年鉴</text>
+</view>
+<view class="fenlei" style='background-color: #d1c3b0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>建筑</text>
+</view>
+<view class="fenlei" style='background-color: #eae2d0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>文物</text>
+</view>
+<view class="fenlei" style='background-color: #d1c3b0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>历史考古</text>
+</view>
+<view class="fenlei" style='background-color: #eae2d0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>古籍</text>
+</view>
+<view class="fenlei" style='background-color: #d1c3b0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>文物医院</text>
+</view>
+<view class="fenlei" style='background-color: #eae2d0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>博物馆学</text>
+</view>
+<view class="fenlei" style='background-color: #d1c3b0;'>
+  <image src="/images/fish.png"/>
+  <text class='viewtext'>其他</text>
+</view>
+
+
+
+
